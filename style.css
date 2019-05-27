@@ -1,0 +1,215 @@
+/* NAVBAR */
+
+
+.navbar {
+
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.2);
+    height: 80px;
+    color: white;
+}
+
+
+.navbar .navbar-brand img {
+
+    width: 280px;
+    height: 52px;
+}
+
+
+.navbar .navbar-brand img {
+
+    width: auto;
+    height: auto;
+}
+
+@media (max-width:320px) {
+
+    .navbar .navbar-brand img {
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+}
+
+/* -----------------------*/
+
+
+.signinbutton a {
+    color: white;
+}
+
+.signinbutton a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.btncustom {
+
+    background-color: #DB4729;
+    color: white;
+    border-radius: 0;
+}
+
+/*  ----------------  */
+
+
+.forgotpassword a:hover {
+
+
+    text-decoration: underline;
+}
+
+.forgotpassword p {
+
+    text-decoration: underline;
+
+}
+
+/*----------------*/
+
+form {
+
+    background-color: white;
+}
+
+/*   IMAGE  */
+.imagebody img {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-left: 1px solid #dedede;
+    padding-left: 35px;
+}
+
+@media (max-width:320px) {
+
+    .imagebody {
+        display: none;
+    }
+}
+
+/* ---------------------------  */
+
+.newcustomer a {
+
+    text-decoration: underline;
+}
+
+
+/* -------------------  */
+
+.signinheader p {
+
+    color: #DB4729;
+
+}
+
+.signupheader p {
+
+    color: #DB4729;
+
+}
+
+/* ------------------------------ */
+
+.container {
+
+    width: 100%;
+    max-width: 1280px;
+}
+
+.signup .card {
+
+    border: none;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+}
+
+.heading-title {
+
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+.select-duration {
+    margin: 30px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.fa-ul {
+    margin-left: 20px;
+}
+
+.fa-ul li {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+
+.period {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.select-duration {
+    margin: 30px 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+.nav-tabs .nav-link.active {
+
+    color: #DB4729;
+    font-weight: 700;
+}
+
+.nav-tabs .nav-link {
+
+    color: #AAA;
+    font-weight: 700;
+}
+
+
+
+
+.fa-ul {
+    margin-left: 20px;
+}
+
+.pricing .card-footer {
+    background-color: #FFF;
+    border: none;
+}
+
+.NPR::before {
+    content: 'रू';
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+
+}
+
+.pricing .btn {
+    font-size: 21px;
+    font-weight: 700;
+    min-width: 150px;
+    min-height: 50px;
+    color: #333;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.pricing .btn:hover{
+
+    box-shadow: 0 1px 25px rgba(0,0,0,0.1);
+}

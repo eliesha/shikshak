@@ -1,0 +1,55 @@
+h3{
+
+    color: #DB4729;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+h5{
+
+    font-weight: 700;
+}
+.panel {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+}
+
+.label-name{
+
+    display: block;
+    color:#1E695E;
+    font-weight: 700;
+}
+
+.poll-option{
+
+    display: block;
+    padding-bottom: 20px;
+}
+
+.poll-option span{
+
+    padding-left: 10px;
+}
+
+.panel-title{
+
+    padding-bottom: 20px;
+}
+
+.panel-primary{
+
+    width: 100%!important;
+}
+
+.panel-heading{
+
+    padding-bottom: 20px;
+}
+
+.list-group-item{
+
+    font-weight: 700;
+    font-size: 16px;
+}

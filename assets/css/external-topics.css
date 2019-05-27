@@ -1,0 +1,144 @@
+.profile-img img {
+    border-radius: 100%;
+    float: left;
+    width: 170px;
+    height: 170px;
+}
+
+
+.paddingtype-1{
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.profile-des {
+    float: left;
+    margin: 60px 40px 0 10px;
+   
+}
+
+
+h1.profile-des-title {
+    color: #000;
+    font-size: 45px;
+    font-weight: 900;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+h1.btm-border:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 0;
+    width: 40px;
+    border-bottom: 5px solid #000;
+}
+
+
+h2.opinion1{
+
+        font-weight: 900;
+
+}
+h2.btm-border:before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    bottom: -5px;
+    height: 0;
+    width: 80px;
+    border-bottom: 5px solid #000;
+}
+
+
+@media (min-width: 992px) {
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+p.profile-details-des {
+    font-size: 22px;
+    color: #727272;
+    font-family: 'HelveticaNeueLTPro-Lt', Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 28px;
+    margin: 0 0 20px 0;
+}
+
+
+.topics-sec-item-img img{
+
+    width: 350px;
+    height: 170px;
+    margin-bottom: 20px;
+  
+}
+
+h2.topics-sec-item-head {
+    
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.17;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+p.topics-sec-item-p {
+   
+    font-size: 17px;
+    line-height: 1.28;
+    color: #737373;
+    margin-top: -2px;
+}
+
+.rowmain{
+    
+    background-color: white;  
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-right: 20px;
+    display: none;
+  
+    
+}
+
+.paddingtype-3{
+
+    padding-top: 40px;
+    padding-left: 20px;
+  
+    
+}
+
+.opinion1{
+
+    color: #000;
+}
+
+
+
+.sidebar-writers img{
+
+    border-radius: 50%;
+    width: 66px;
+    height: 66px;
+    
+}
+
+
+.button-load{
+
+    margin-top: 10px;
+    background-color: #1E695E;
+    color: white;
+}
+
+.button-load:hover{
+
+    background-color: rgba(30, 105, 94,0.8);
+    cursor: pointer;
+}

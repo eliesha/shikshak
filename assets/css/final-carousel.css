@@ -1,0 +1,48 @@
+.carousel{
+
+    position: relative;
+}
+
+.body-archive img {
+
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+}
+
+.body-archive img:hover{
+
+    border: 1px solid #1E695E ;
+    cursor: pointer;
+}
+
+.top-with-controls-archive h4 {
+
+    font-size: 32px;
+   
+}
+
+
+.carousel-control-prev-icon {
+
+    position: absolute;
+    left: 0px;
+   top: 10px;
+   
+}
+
+.carousel-control-next-icon {
+
+    position: absolute;
+    top: 10px;
+    right:0px;
+    
+    
+
+}
+
+.carousel-control-next-icon span{
+
+    height: 25px;
+}
+

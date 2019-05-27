@@ -1,0 +1,172 @@
+
+*{
+
+    font-family:'Roboto', sans-serif;
+
+    
+}
+
+
+.container{
+
+    width:100%;
+    max-width:1280px;   
+}
+
+a {
+
+    color: #000;
+}
+
+a:hover{
+
+    text-decoration: none;
+}
+
+.active{
+
+    color: white;
+}
+
+/*     topbar  */
+
+
+.navbar-custom1 {
+    background-color:black;
+    height: 100px;
+}
+/* change the brand and text color */
+.navbar-custom1 .navbar1-brand,
+.navbar-custom1 .navbar-text {
+    color:white;
+    padding:20px;
+    padding-top:40px;
+}
+/* change the link color */
+.navbar-custom1 .navbar-nav .nav-link {
+    color:white;
+}
+/* change the color of active or hovered links */
+.navbar-custom1 .nav-item.active .nav-link,
+.navbar-custom1 .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom1 h4{
+
+    font-size:12px;
+    display: inline-block;
+    padding-left: 12px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Unlock', cursive;
+}
+
+@media(min-width:768px){
+.navbar-custom1 h4{
+
+    font-size: 24px;
+}
+}
+
+
+/*  Navbar   */
+
+.navbar-custom2{
+
+    width: 100%;
+    background-color: #000;
+    color: white;
+    border-top: 1px solid white;
+}
+
+.nav-item {
+
+    padding-left: 40px;
+}
+.navbar-custom2 a{
+
+    color:white;
+
+}
+
+.navbar-custom2 a:hover{
+
+    color:#4a579e;
+}
+
+.navbar-toggler{
+
+    background-color: white;
+    
+}
+
+
+ .custom-toggler.navbar-toggler {
+    border-color:grey;
+  } 
+
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='grey' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }  
+
+.dropdown-menu {
+
+    background-color: #000;
+}  
+ 
+  
+
+/*   adspace   */
+
+.ad-space{
+
+   background-color:aliceblue;
+}
+
+
+
+
+/* main-content  */
+
+.main-section{
+
+    height: auto;
+}
+
+
+/*  Footer  */
+
+footer{
+
+    background-color: black;
+    color: #999;
+}
+
+footer a{
+
+    color: #999;
+}
+
+footer a:hover{
+
+    color: #4a579e;
+}
+
+.footer-social{
+
+    background-color: #222525;
+}
+
+footer i{
+
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.main ul li{
+
+    height: 60px;
+    text-overflow: ellipsis;
+}
+

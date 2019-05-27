@@ -1,0 +1,12 @@
+.slick-prev:before,
+.slick-next:before {
+    color: blue;
+}
+
+
+ /* the slides */
+ .slick-slide {
+    margin: 0 27px;
+  }
+  /* the parent */
+  

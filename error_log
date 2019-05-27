@@ -1,0 +1,14 @@
+[27-May-2019 06:15:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/oxygenaltitude/public_html/class/database.php:119
+Stack trace:
+#0 /home/oxygenaltitude/public_html/class/podcast.php(110): Database->select(Array)
+#1 /home/oxygenaltitude/public_html/inc/menu.php(270): Podcast->getPodcastForNav(3)
+#2 /home/oxygenaltitude/public_html/inc/header.php(250): require('/home/oxygenalt...')
+#3 /home/oxygenaltitude/public_html/new.php(1): require('/home/oxygenalt...')
+#4 {main}
+  thrown in /home/oxygenaltitude/public_html/class/database.php on line 119
+[27-May-2019 06:15:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/oxygenaltitude/public_html/class/database.php:119
+Stack trace:
+#0 /home/oxygenaltitude/public_html/class/ads.php(83): Database->select(Array)
+#1 /home/oxygenaltitude/public_html/new.php(484): Ads->getInnerAds(4)
+#2 {main}
+  thrown in /home/oxygenaltitude/public_html/class/database.php on line 119

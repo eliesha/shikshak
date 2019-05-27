@@ -1,0 +1,31 @@
+Options -Indexes
+
+RewriteEngine On
+
+#If the directory or file exist it will not rewrite the url
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteCond %{REQUEST_FILENAME} !-l
+
+#If the directory or file exist it will not rewrite the url
+
+RewriteRule ^([^/]+)/([^/]+)/?$ new.php?id=$1&act=$2
+
+RewriteRule ^user/([^/]+)/([^/]+)/?$ writer-profile.php?id=$1&act=$2
+
+RewriteRule ^profile/([^/]+)/([^/]+)?$ shaishikProfile.php?id=$1&act=$2
+
+RewriteRule ^category/([^/]+)/([^/]+)?$ categoryNews.php?cat_id=$1&act=$2
+
+RewriteRule ^publication/([^/]+)/([^/]+)?$ book.php?id=$1&act=$2
+
+RewriteRule ^podcast/([^/]+)/([^/]+)?$ podcastNews.php?pod_id=$1&act=$2
+
+RewriteRule ^sangraha/([^/]+)/([^/]+)?$ archivePage.php?date=$1
+
+ErrorDocument 404 /404.php
+
+Options +Multiviews

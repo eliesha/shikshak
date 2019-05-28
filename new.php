@@ -27,12 +27,13 @@
         }
         
     }
+
+    if(isset($_SESSION['fuser_id'])){
+        $id = $_SESSION['fuser_id'];
+        $user_info = $user->getUserById($id);
     
-    $id = $_SESSION['fuser_id'];
-    
-    $user_info = $user->getUserById($id);
-    
-    $userImage = basename($user_info[0]->image);
+        $userImage = basename($user_info[0]->image);
+    }
     
     if(isset($user_info[0]->image) && !empty($user_info[0]->image) && file_exists(UPLOAD_DIR.'users/'.$userImage)){
     

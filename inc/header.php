@@ -51,7 +51,7 @@
                     
                     $image = basename($getNews[0]->image);
                     
-                    $proImage = basename($getProfile[0]->image);
+                    //$proImage = basename($getProfile[0]->image);
                     
                     if(isset($getNews[0]->image) && file_exists(UPLOAD_DIR.'news/'.$image)){
                         

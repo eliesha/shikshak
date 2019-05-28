@@ -14,14 +14,14 @@ if ($_SERVER['SERVER_ADDR'] == '127.0.0.1' || $_SERVER['SERVER_ADDR'] == '::1') 
 if (ENVIRONMENT == "DEVELOPMENT") {
 	//error_log(E_ALL);
 	define('DB_HOST', 'localhost');
-	define('DB_USER', 'root');
-	define('DB_PWD', 'bsVRVo.4t1oM');
+	define('DB_USER', 'alisha');
+	define('DB_PWD', 'Hell0w0rld2O19');
 	define('DB_NAME', 'shikshak');
 } else {
 	//error_log(E_ALL); 
 	define('DB_HOST', 'localhost');
-	define('DB_USER', 'oxygenal_admin');
-	define('DB_PWD', 'bsVRVo.4t1oM');
+	define('DB_USER', 'alisha');
+	define('DB_PWD', 'Hell0w0rld2O19');
 	define('DB_NAME', 'oxygenal_shikshak');
 }
 
